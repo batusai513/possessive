@@ -6,10 +6,10 @@ Courtesy of [ruby possessive gem](https://github.com/bclubb/possessive).
 
 ## Instalation
 
-```javascript
-npm install --save possessive
+```bash
+npm install --save @wardrakus/possessive
 
-yarn add possessive
+yarn add @wardrakus/possessive
 ```
 
 ## How to use
