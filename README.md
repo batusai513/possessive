@@ -4,6 +4,14 @@ A simple helper function that lets you get a possessive form of a string.
 
 Courtesy of [ruby possessive gem](https://github.com/bclubb/possessive).
 
+Note: For those wishing to avoid this NPM dependency, the following one-liner function is functionally equivalent:
+
+```javascript
+function possessive(s) {
+  return s ? (s + (s.substr(-1) == 's' ? '\'' : '\'s')) : s;
+}
+```
+
 ## Instalation
 
 ```bash
